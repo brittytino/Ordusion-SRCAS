@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordusion</title>
+
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- Font Awesome CDN Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom CSS File Link  -->
+    <link rel="stylesheet" href="css/style.css">
+	
+    <link rel="shortcut icon" href="./image/logo.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">Ordusion - SRCAS </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">events</a>
+            <a href="#book">register</a>
+        </nav>
+
+        <a href="#book" class="btn">Register Now</a>
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>Ordusion</h3>
+                <a href="#book" class="btn">Register now</a>
+            </div>
+
+            <div class="image">
+                <img src="image/home-img-1.png" class="main-home-image" alt="">
+            </div>
+        </div>
+
+        <div class="image-slider">
+            <img src="image/home-img-1.png" alt="">
+            <img src="image/home-img-2.png" alt="">
+            <img src="image/home-img-3.png" alt="">
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <h1 class="heading">about ordusion <span>Ordusion</span></h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="image/about-img.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3 class="title"> Ordusion!!!</h3>
+                <p>The Computer Science Department of Sri Ramakrishna College of Arts and Science is all about stirring up excitement with event "Ordusion." Every time  the response from participants is off the charts! It's like the whole campus comes alive with the buzz of coding, creativity, and camaraderie. With the immense support they receive, "Ordusion" has become a must-attend affair for anyone passionate about computer science.</p>
+                <a href="#" class="btn">read more</a>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu" id="menu">
+        <h1 class="heading">Our Events <span>Events</span></h1>
+
+        <div class="box-container">
+            <a href="#" class="box">
+                <img src="image/menu-1.png" alt="">
+                <div class="content">
+                    <h3>Paper Presentation</h3>
+                    <p>Rules : Each participant must submit their paper on the designated topic within the specified deadline. Late submissions will not be considered.
+Presentations must adhere to the allocated time limit.</p>
+                    
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-2.png" alt="">
+                <div class="content">
+                    <h3>Debugging</h3>
+                    <p>Rules : Participants must solve the given programming problems individually without any external assistance or resources. Any unauthorized tools or software will result in disqualification.</p>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-3.png" alt="">
+                <div class="content">
+                    <h3>Web Designing</h3>
+                    <p>Rules : Designs must be original and not infringe upon any existing copyrights or trademarks.</p>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-4.png" alt="">
+                <div class="content">
+                    <h3>Connections</h3>
+                    <p>Rules : 2 persons can be a team, 3 rounds will be conducted.</p>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-5.png" alt="">
+                <div class="content">
+                    <h3>Facial Painting</h3>
+                    <p>Rules : Designs should be appropriate for all audiences and must not include any offensive or controversial imagery.</p>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-6.png" alt="">
+                <div class="content">
+                    <h3>Fireless Cooking</h3>
+                    <p>Rules : Cooking ingredients must be brought by the participants.
+All cooking processes must be conducted without the use of fire or any heating elements.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+  
+    <!-- BOOK -->
+    <section class="book" id="book">
+        <h1 class="heading">REGISTER <span>Unlock Your Potential</span></h1>
+
+       <form action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="79b7866a-d3f0-45ea-be1b-65742630a342">
+
+    <input type="text" name="name" placeholder="Name" class="box" required>
+    <input type="text" name="regno" placeholder="Register Number" class="box" required>
+    <input type="email" name="email" placeholder="Email" class="box" required>
+    <input type="number" name="phnumber" placeholder="Phone Number" class="box" required>
+    <input type="text" name="college" placeholder="College Name" class="box" required>
+    <select name="event1" id="event1" class="box" required>
+        <option value="">Select First Event</option>
+        <option value="None">None</option>
+        <option value="Paper Presentation">Paper Presentation</option>
+        <option value="Debugging">Debugging</option>
+        <option value="Web Designing">Web Designing</option>
+        <option value="Connections">Connections</option>
+        <option value="Facial Painting">Facial Painting</option>
+        <option value="Fireless Cooking">Fireless Cooking</option>
+    </select>
+    <select name="event2" id="event2" class="box" required>
+        <option value="">Select Second Event</option>
+        <option value="None">None</option>
+        <option value="Paper Presentation">Paper Presentation</option>
+        <option value="Debugging">Debugging</option>
+        <option value="Web Designing">Web Designing</option>
+        <option value="Connections">Connections</option>
+        <option value="Facial Painting">Facial Painting</option>
+        <option value="Fireless Cooking">Fireless Cooking</option>
+    </select>
+    <button type="submit" class="btn">Register</button>
+
+</form>
+
+
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>our Events</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> Paper Presentation</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Debugging</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Web Designing</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Connections</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Facial Painting</a>
+		<a href="#"><i class="fas fa-arrow-right"></i> Fireless Cooking</a>
+
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"><i class="fas fa-arrow-right"></i> home</a>
+                <a href="#about"><i class="fas fa-arrow-right"></i> about</a>
+                <a href="#menu"><i class="fas fa-arrow-right"></i> events</a>
+                <a href="#book"><i class="fas fa-arrow-right"></i> register</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact </h3>
+                <a href="#"><i class="fas fa-phone"></i> +91 9843169009</a>
+                <a href="#"><i class="fas fa-phone"></i> +91 7010647644</a>
+                <a href="#"><i class="fas fa-envelope"></i> cssrcas@srcas.ac.in</a>
+            </div>
+
+            <div class="box">
+                <h3>social</h3>
+                <a href="https://www.facebook.com/SRCASofficial/"><i class="fab fa-facebook-f"></i> facebook</a>
+                <a href="https://www.instagram.com/cssrcas/"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="https://www.linkedin.com/in/brittytino/"><i class="fab fa-linkedin"></i> linkedin</a>
+                <a href="https://twitter.com/TinoBritty"><i class="fab fa-twitter"></i> twitter</a>
+            </div>
+        </div>
+
+        <div class="credit">created by <a href="https://tinobritty-portfolio.vercel.app/">britt</a> | all rights reserved</div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS File Link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
