@@ -39,3 +39,10 @@ var swiper = new Swiper(".review-slider", {
         }
     },
 });
+
+// Disable Ctrl and F12 keys
+document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey || event.key === 'F12') {
+        event.preventDefault();
+    }
+});
