@@ -40,9 +40,12 @@ var swiper = new Swiper(".review-slider", {
     },
 });
 
-// Disable Ctrl and F12 keys
-document.addEventListener('keydown', function(event) {
-    if (event.ctrlKey || event.key === 'F12') {
-        event.preventDefault();
+// Function to disable keys
+function disableKeys(e) {
+    if ((e.ctrlKey && e.shiftKey && e.key === 'I') || e.ctrlKey || e.key === 'F12') {
+        e.preventDefault();
     }
-});
+}
+
+// Adding event listener to disable keys
+document.addEventListener('keydown', disableKeys);
